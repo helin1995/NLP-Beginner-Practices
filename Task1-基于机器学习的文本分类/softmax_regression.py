@@ -17,8 +17,6 @@ class Model(object):
             for j in range(row):
                 ex[j][i] /= ex_sum[i]
         return ex
-    def cross_entropy_loss(self, y_, y):
-        pass
 
     def forward(self, x):
         res = np.matmul(self.Weight, x.T)
