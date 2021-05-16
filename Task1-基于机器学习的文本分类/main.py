@@ -25,24 +25,23 @@ vocab = build_vocab(train_data, n_gram=config.n_gram)
 
 config.vocab = vocab
 # 提取数据特征（word count、tf-idf）
-train_feature = feature_extraction(train_data, vocab)
-dev_feature = feature_extraction(dev_data, vocab)
-test_feature = feature_extraction(test_data, vocab)
-
+train_feature = feature_extraction(train_data, vocab, n_gram=config.n_gram)
+dev_feature = feature_extraction(dev_data, vocab, n_gram=config.n_gram)
+test_feature = feature_extraction(test_data, vocab, n_gram=config.n_gram)
 # 构建模型
 model = lr.Model(config)
 # 训练模型
 train(config, model, train_feature, dev_feature)
-
-L = len(test_feature)
+# 在测试集上进行测试
 test_true_nums = 0
 test_loss = 0.
+random.shuffle(test_feature)
 for x, y in test_feature:
     x = np.asarray(x).reshape(-1, 1)
     y = np.asarray(y)
     y_hat = sigmoid(np.matmul(model.weight.T, x))
     y_pred = int(y_hat[0][0] > 0.5)
     test_true_nums += int((y_pred == y))
-    test_loss += binary_cross_entropy_loss(model.weight, y, y_hat)
+    test_loss += binary_cross_entropy_loss(config, model.weight, y, y_hat)
 
-print(test_true_nums/L, test_loss/L)
+print('test accuracy: {:.4f}\t test loss: {:.4f}'.format(test_true_nums / len(test_feature), test_loss / len(test_feature)))
