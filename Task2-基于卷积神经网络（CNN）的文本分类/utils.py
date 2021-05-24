@@ -2,6 +2,9 @@
 
 import re
 import csv
+import torch
+import numpy as np
+
 
 MAX_VOCAB_SIZE = 5000   # 词表最大长度
 MIN_FREQ = 1            # 单词最小出现次数
@@ -38,7 +41,9 @@ def build_vocab(data):
 
 def generate_data(data, vocab, config):
     data_set = []
+    label = []
     for words, target in data:
+        label.append(int(target)-1)
         if len(words) <= config.maxLen:
             words += [PAD] * (config.maxLen - len(words))
         else:
@@ -46,5 +51,5 @@ def generate_data(data, vocab, config):
         word_index = []
         for word in words:
             word_index.append(vocab.get(word, vocab[UNK]))
-        data_set.append([word_index, int(target)-1])
-    return data_set
+        data_set.append(word_index)
+    return torch.from_numpy(np.asarray(data_set)), torch.from_numpy(np.asarray(label))
