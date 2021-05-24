@@ -4,6 +4,8 @@ import re
 import csv
 import torch
 import numpy as np
+import torch.nn.functional as F
+from sklearn import metrics
 
 
 MAX_VOCAB_SIZE = 5000   # 词表最大长度
@@ -53,3 +55,21 @@ def generate_data(data, vocab, config):
             word_index.append(vocab.get(word, vocab[UNK]))
         data_set.append(word_index)
     return torch.from_numpy(np.asarray(data_set)), torch.from_numpy(np.asarray(label))
+
+def evaluate(model, dev_loader):
+    model.eval()
+    dev_loss = 0.
+    dev_predict_label = np.array([])
+    dev_true_label = np.array([])
+    for x, y in dev_loader:
+        y_ = model(x)
+        loss = F.cross_entropy(input=y_, target=y)
+        y_pred = torch.argmax(y_, dim=1).detach().numpy()
+        dev_predict_label = np.append(dev_predict_label, y_pred)
+        dev_true_label = np.append(dev_true_label, y.detach().numpy())
+
+        dev_loss += loss.detach().item()
+
+    dev_acc = metrics.accuracy_score(dev_true_label, dev_predict_label)
+    dev_loss = dev_loss / len(dev_loader)
+    return dev_acc, dev_loss

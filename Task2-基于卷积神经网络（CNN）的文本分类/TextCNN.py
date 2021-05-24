@@ -5,11 +5,12 @@ import torch.nn as nn
 
 class Config(object):
     def __init__(self):
-        self.maxLen = 64   #  句子的最大长度
+        self.maxLen = 128   #  句子的最大长度
         self.vocab = None   # 词表，在运行时赋值
         self.embedding_dim = 300
-        self.batchSize = 32
+        self.batchSize = 64
         self.learningRate = 1e-3
+        self.tolerance = 1e-3
 
 class Model(nn.Module):
     def __init__(self, config):
