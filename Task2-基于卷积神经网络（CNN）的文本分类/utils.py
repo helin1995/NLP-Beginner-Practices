@@ -3,9 +3,11 @@
 import re
 import csv
 import torch
+import pickle as pkl
 import numpy as np
 import torch.nn.functional as F
 from sklearn import metrics
+from TextCNN import Config
 
 
 MAX_VOCAB_SIZE = 5000   # 词表最大长度
@@ -39,6 +41,8 @@ def build_vocab(data):
                  :MAX_VOCAB_SIZE]
     vocab = {_[0]: idx for idx, _ in enumerate(vocab_list)}
     vocab[UNK], vocab[PAD] = len(vocab), len(vocab) + 1
+    with open('./vocab/word2id.pkl', 'wb') as f:
+        pkl.dump(vocab, f, protocol=pkl.HIGHEST_PROTOCOL)
     return vocab
 
 def generate_data(data, vocab, config):
@@ -73,3 +77,20 @@ def evaluate(model, dev_loader):
     dev_acc = metrics.accuracy_score(dev_true_label, dev_predict_label)
     dev_loss = dev_loss / len(dev_loader)
     return dev_acc, dev_loss
+
+if __name__ == '__main__':
+    # 加载预训练词向量
+    config = Config()
+    glove_path = './glove.6B/glove.6B.100d.txt'
+    with open('./vocab/word2id.pkl', 'rb') as f:
+        word2id = pkl.load(f)
+    embedding = np.random.randn(len(word2id), config.embedding_dim)
+    glove = dict()
+    with open(glove_path, 'r', encoding='utf-8') as f:
+        for line in f.readlines():
+            line = line.strip().split()
+            word = line[0]
+            vector = np.array([float(val) for val in line[1:]]).astype('float32')
+            if word in word2id.keys():
+                embedding[word2id[word]] = vector
+    np.save('./pretrained_wordvector/pretrained_embedding', embedding)

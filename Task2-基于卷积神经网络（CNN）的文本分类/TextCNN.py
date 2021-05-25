@@ -1,13 +1,19 @@
 # coding: utf-8
 
 import torch
+import numpy as np
 import torch.nn as nn
 
 class Config(object):
     def __init__(self):
-        self.maxLen = 128   #  句子的最大长度
+        self.model_name = 'TextCNN'
+        self.maxLen = 64   #  句子的最大长度
         self.vocab = None   # 词表，在运行时赋值
-        self.embedding_dim = 300
+        self.embedding_dim = 100
+        self.save_path = './model/' + self.model_name + '.ckpt'
+        self.pretrain_path = './pretrained_wordvector/pretrained_embedding.npy'
+        self.pretrained = np.load(self.pretrain_path)
+        # self.pretrained = 'random'
         self.batchSize = 64
         self.learningRate = 1e-3
         self.tolerance = 1e-3
@@ -15,7 +21,12 @@ class Config(object):
 class Model(nn.Module):
     def __init__(self, config):
         super(Model, self).__init__()
-        self.embedding = nn.Embedding(len(config.vocab), config.embedding_dim)
+        if config.pretrained == 'random':
+            self.embedding = nn.Embedding(len(config.vocab), config.embedding_dim)
+        else:
+            self.embedding = nn.Embedding(len(config.vocab), config.embedding_dim)
+            self.embedding.weight.data.copy_(torch.from_numpy(config.pretrained))
+            self.embedding.weight.requires_grad = True
         self.conv2 = nn.Conv1d(in_channels=config.embedding_dim, out_channels=2, kernel_size=2, stride=1)
         self.pool2 = nn.MaxPool1d(kernel_size=config.maxLen - 2 + 1)
         self.conv3 = nn.Conv1d(in_channels=config.embedding_dim, out_channels=2, kernel_size=3, stride=1)

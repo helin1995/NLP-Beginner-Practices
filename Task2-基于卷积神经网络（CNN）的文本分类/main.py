@@ -55,12 +55,21 @@ if __name__ == '__main__':
         dev_acc, dev_loss = evaluate(model, dev_loader)
         train_acc = metrics.accuracy_score(train_true_label, train_predict_label)
         train_loss = train_loss / len(train_loader)
-        print_msg = 'train loss: {:.4f} \t train accuracy: {:.4f} \t dev loss: {:.4f} \t dev accuracy: {:.4f}'
-        print(print_msg.format(train_loss, train_acc, dev_loss, dev_acc))
-        if abs(dev_loss - last_dev_loss) < config.tolerance:
-            break
-        else:
+        if dev_loss < last_dev_loss:
+            improve = '*'
+            # 保存模型
+            torch.save(model, config.save_path)
             last_dev_loss = dev_loss
+            improve_epoch = epoch
+        else:
+            improve = ''
+        print_msg = 'train loss: {:.4f} \t train accuracy: {:.4f} \t dev loss: {:.4f} \t dev accuracy: {:.4f} \t {}'
+        print(print_msg.format(train_loss, train_acc, dev_loss, dev_acc, improve))
+        # early stopping
+        if epoch - improve_epoch >= 2:
+            break
+    # 在测试集上进行测试
+    model = torch.load(config.save_path)
     model.eval()
     test_loss = 0.
     test_predict_label = np.array([])
