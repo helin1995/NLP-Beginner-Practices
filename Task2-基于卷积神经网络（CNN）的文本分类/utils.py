@@ -36,7 +36,7 @@ def build_vocab(data):
     vocab = dict()
     for word_list, _ in data:
         for word in word_list:
-            vocab[word] = vocab.get(word, 0) + 1
+            vocab[word] = vocab.get(word, 0) + 1  # 统计词频
     vocab_list = sorted([_ for _ in vocab.items() if _[1] > MIN_FREQ], key=lambda x: x[1], reverse=True)[
                  :MAX_VOCAB_SIZE]
     vocab = {_[0]: idx for idx, _ in enumerate(vocab_list)}
@@ -84,6 +84,7 @@ if __name__ == '__main__':
     glove_path = './glove.6B/glove.6B.100d.txt'
     with open('./vocab/word2id.pkl', 'rb') as f:
         word2id = pkl.load(f)
+    np.random.seed(123)
     embedding = np.random.randn(len(word2id), config.embedding_dim)
     glove = dict()
     with open(glove_path, 'r', encoding='utf-8') as f:
