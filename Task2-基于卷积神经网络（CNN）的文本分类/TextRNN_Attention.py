@@ -18,8 +18,9 @@ class Config(object):
         self.pretrain_path = './pretrained_wordvector/pretrained_embedding.npy'  # 预训练词向量路径
         self.pretrained = np.load(self.pretrain_path)  # 加载预训练词向量
         # self.pretrained = 'random'  # 假如没有预训练词向量，就随机初始化词向量
-        self.batchSize = 128       # batch_size
+        self.batchSize = 128      # batch_size
         self.learningRate = 1e-4  # 学习率
+        self.dropout = 0.5        # 丢弃率
 
 class Model(nn.Module):
     def __init__(self, config):
@@ -34,8 +35,8 @@ class Model(nn.Module):
             self.embedding.weight.data.copy_(torch.from_numpy(config.pretrained))
             self.embedding.weight.requires_grad = True  # 随模型训练进行微调，False-保持不变
         self.rnn = nn.RNN(config.embedding_dim, config.hiddenSize, batch_first=True, num_layers=2, bidirectional=False,
-                          dropout=0.5)
-        self.q = nn.Parameter(torch.randn(config.hiddenSize, 1))
+                          dropout=config.dropout)
+        self.q = nn.Parameter(torch.randn(config.hiddenSize, 1))  # 查询向量query
         self.seq_net = nn.Sequential(
             nn.Linear(config.hiddenSize, 64),
             nn.ReLU(),
@@ -45,6 +46,7 @@ class Model(nn.Module):
     def forward(self, x):
         x = self.embedding(x)
         out, _ = self.rnn(x)
+        # 计算注意力分布alpha和注意力向量attVec
         Dx = out.size()[-1]
         alpha = F.softmax(torch.matmul(out, self.q) / math.sqrt(Dx), dim=1).permute(0, 2, 1)
         attVec = torch.matmul(alpha, out).squeeze()
