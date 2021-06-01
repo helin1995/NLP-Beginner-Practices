@@ -3,6 +3,7 @@
 import torch
 import numpy as np
 import torch.nn as nn
+import torch.nn.functional as F
 
 class Config(object):
     def __init__(self):
@@ -31,7 +32,8 @@ class Model(nn.Module):
             self.embedding = nn.Embedding(len(config.vocab), config.embedding_dim)
             self.embedding.weight.data.copy_(torch.from_numpy(config.pretrained))
             self.embedding.weight.requires_grad = True  # 随模型训练进行微调，False-保持不变
-        self.rnn = nn.RNN(config.embedding_dim, config.hiddenSize, batch_first=True, num_layers=1, bidirectional=False)
+        self.rnn = nn.RNN(config.embedding_dim, config.hiddenSize, batch_first=True, num_layers=2, bidirectional=False,
+                          dropout=0.5)
         self.seq_net = nn.Sequential(
             nn.Linear(config.hiddenSize, 64),
             nn.ReLU(),
@@ -41,16 +43,33 @@ class Model(nn.Module):
 
     def forward(self, x):
         x = self.embedding(x)
-        _, hn = self.rnn(x)
-        hn = hn.squeeze()
+        _, hn = self.rnn(x)  # RNN
+        # hn = hn.squeeze()
+        hn = hn[-1]
         out = self.seq_net(hn)
         return out
 
+class Attention():
+    def __init__(self, X, q):
+        super(Attention, self).__init__()
+        Dx = X.size()[-1]
+        alpha = F.softmax(torch.matmul(X, q) / torch.sqrt(Dx), dim=1).permute(0, 2, 1)
+        attVec = torch.matmul(alpha, X).squeeze()
+        return attVec
+
 
 if __name__ == '__main__':
+    ### Pytorch中RNN、LSTM、GRU的使用详解参考：https://blog.csdn.net/lkangkang/article/details/89814697
     # 输入特征维度5，输出维度10, 层数2
     rnn = torch.nn.RNN(5, 10, 3, batch_first=True)
     # seq长度4，batch_size=2
     input = torch.randn(2, 4, 5)
     output, hn = rnn(input)
     print(output.size(), hn.size())
+    q = torch.randn(10, 1)
+    alpha = F.softmax(torch.matmul(output, q), dim=1).permute(0, 2, 1)
+    print(alpha.size())
+    print(alpha)
+    attVec = torch.matmul(alpha, output)
+    print(attVec.size())
+    print(attVec)
