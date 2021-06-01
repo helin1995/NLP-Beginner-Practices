@@ -5,7 +5,8 @@ import numpy as np
 import torch.nn.functional as F
 from torch.utils.data import TensorDataset, DataLoader
 from utils import *
-from TextCNN import Config, Model
+# from TextCNN import Config, Model
+from TextRNN import Config, Model
 from sklearn import metrics
 
 if __name__ == '__main__':
