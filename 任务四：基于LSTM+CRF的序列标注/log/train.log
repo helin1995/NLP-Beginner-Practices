@@ -1,0 +1,560 @@
+2021-06-09 13:38:47,461 - log/train.log - INFO - Epoch: [1/1]
+2021-06-09 13:40:22,356 - log/train.log - INFO - Epoch: [1/1]
+2021-06-09 13:41:57,684 - log/train.log - INFO - Epoch: [1/1]
+2021-06-09 13:42:43,341 - log/train.log - INFO - Epoch: [1/1]
+2021-06-09 13:48:59,857 - log/train.log - INFO - Epoch: [1/1]
+2021-06-09 14:01:23,854 - log/train.log - INFO - Epoch: [1/1]
+2021-06-09 14:01:25,316 - log/train.log - INFO - train loss: 1.9808
+2021-06-09 14:01:25,357 - log/train.log - INFO - train loss: 0.0530
+2021-06-09 14:01:25,405 - log/train.log - INFO - train loss: 0.0590
+2021-06-09 14:01:25,448 - log/train.log - INFO - train loss: 0.0462
+2021-06-09 14:01:25,483 - log/train.log - INFO - train loss: 0.0454
+2021-06-09 14:01:25,528 - log/train.log - INFO - train loss: 0.0573
+2021-06-09 14:01:25,583 - log/train.log - INFO - train loss: 0.0580
+2021-06-09 14:01:25,631 - log/train.log - INFO - train loss: 0.0464
+2021-06-09 14:01:25,671 - log/train.log - INFO - train loss: 0.0457
+2021-06-09 14:01:25,706 - log/train.log - INFO - train loss: 0.0459
+2021-06-09 14:01:25,753 - log/train.log - INFO - train loss: 0.0435
+2021-06-09 14:01:25,808 - log/train.log - INFO - train loss: 0.0395
+2021-06-09 14:01:25,853 - log/train.log - INFO - train loss: 0.0376
+2021-06-09 14:01:25,892 - log/train.log - INFO - train loss: 0.0423
+2021-06-09 14:01:25,929 - log/train.log - INFO - train loss: 0.0519
+2021-06-09 14:01:25,970 - log/train.log - INFO - train loss: 0.0388
+2021-06-09 14:01:26,024 - log/train.log - INFO - train loss: 0.0505
+2021-06-09 14:01:26,070 - log/train.log - INFO - train loss: 0.0356
+2021-06-09 14:01:26,115 - log/train.log - INFO - train loss: 0.0508
+2021-06-09 14:01:26,160 - log/train.log - INFO - train loss: 0.0392
+2021-06-09 14:01:26,204 - log/train.log - INFO - train loss: 0.0378
+2021-06-09 14:01:26,250 - log/train.log - INFO - train loss: 0.0374
+2021-06-09 14:01:26,301 - log/train.log - INFO - train loss: 0.0396
+2021-06-09 14:01:26,346 - log/train.log - INFO - train loss: 0.0305
+2021-06-09 14:01:26,388 - log/train.log - INFO - train loss: 0.0503
+2021-06-09 14:01:26,433 - log/train.log - INFO - train loss: 0.0237
+2021-06-09 14:01:26,482 - log/train.log - INFO - train loss: 0.0508
+2021-06-09 14:01:26,528 - log/train.log - INFO - train loss: 0.0458
+2021-06-09 14:01:26,572 - log/train.log - INFO - train loss: 0.0282
+2021-06-09 14:01:26,617 - log/train.log - INFO - train loss: 0.0230
+2021-06-09 14:01:26,656 - log/train.log - INFO - train loss: 0.0283
+2021-06-09 14:01:26,702 - log/train.log - INFO - train loss: 0.0532
+2021-06-09 14:01:26,748 - log/train.log - INFO - train loss: 0.0613
+2021-06-09 14:01:26,794 - log/train.log - INFO - train loss: 0.0202
+2021-06-09 14:01:26,838 - log/train.log - INFO - train loss: 0.0323
+2021-06-09 14:01:26,877 - log/train.log - INFO - train loss: 0.0206
+2021-06-09 14:01:26,936 - log/train.log - INFO - train loss: 0.0150
+2021-06-09 14:01:26,977 - log/train.log - INFO - train loss: 0.0251
+2021-06-09 14:01:27,019 - log/train.log - INFO - train loss: 0.0197
+2021-06-09 14:01:27,054 - log/train.log - INFO - train loss: 0.0145
+2021-06-09 14:01:27,099 - log/train.log - INFO - train loss: 0.0255
+2021-06-09 14:01:27,149 - log/train.log - INFO - train loss: 0.0311
+2021-06-09 14:01:27,194 - log/train.log - INFO - train loss: 0.0171
+2021-06-09 14:01:27,238 - log/train.log - INFO - train loss: 0.0473
+2021-06-09 14:01:27,280 - log/train.log - INFO - train loss: 0.0128
+2021-06-09 14:01:27,328 - log/train.log - INFO - train loss: 0.0222
+2021-06-09 14:01:27,407 - log/train.log - INFO - train loss: 0.0112
+2021-06-09 14:01:27,454 - log/train.log - INFO - train loss: 0.0153
+2021-06-09 14:01:27,498 - log/train.log - INFO - train loss: 0.0104
+2021-06-09 14:01:27,551 - log/train.log - INFO - train loss: 0.0093
+2021-06-09 14:01:27,605 - log/train.log - INFO - train loss: 0.0260
+2021-06-09 14:01:27,649 - log/train.log - INFO - train loss: 0.0123
+2021-06-09 14:01:27,693 - log/train.log - INFO - train loss: 0.0237
+2021-06-09 14:01:27,734 - log/train.log - INFO - train loss: 0.0191
+2021-06-09 14:01:27,776 - log/train.log - INFO - train loss: 0.0153
+2021-06-09 14:01:27,909 - log/train.log - INFO - train loss: 0.0330
+2021-06-09 14:01:27,942 - log/train.log - INFO - train loss: 0.0153
+2021-06-09 14:01:27,987 - log/train.log - INFO - train loss: 0.0112
+2021-06-09 14:01:28,039 - log/train.log - INFO - train loss: 0.0144
+2021-06-09 14:01:28,083 - log/train.log - INFO - train loss: 0.0435
+2021-06-09 14:01:28,126 - log/train.log - INFO - train loss: 0.0159
+2021-06-09 14:01:28,172 - log/train.log - INFO - train loss: 0.0092
+2021-06-09 14:01:28,224 - log/train.log - INFO - train loss: 0.0043
+2021-06-09 14:01:28,285 - log/train.log - INFO - train loss: 0.0368
+2021-06-09 14:01:28,335 - log/train.log - INFO - train loss: 0.0087
+2021-06-09 14:01:28,375 - log/train.log - INFO - train loss: 0.0185
+2021-06-09 14:01:28,429 - log/train.log - INFO - train loss: 0.0497
+2021-06-09 14:01:28,476 - log/train.log - INFO - train loss: 0.0402
+2021-06-09 14:01:28,525 - log/train.log - INFO - train loss: 0.0434
+2021-06-09 14:01:28,569 - log/train.log - INFO - train loss: 0.0491
+2021-06-09 14:01:28,612 - log/train.log - INFO - train loss: 0.0148
+2021-06-09 14:01:28,659 - log/train.log - INFO - train loss: 0.0143
+2021-06-09 14:01:28,712 - log/train.log - INFO - train loss: 0.0139
+2021-06-09 14:01:28,766 - log/train.log - INFO - train loss: 0.0057
+2021-06-09 14:01:28,806 - log/train.log - INFO - train loss: 0.0101
+2021-06-09 14:01:28,845 - log/train.log - INFO - train loss: 0.0067
+2021-06-09 14:01:28,896 - log/train.log - INFO - train loss: 0.0054
+2021-06-09 14:01:28,952 - log/train.log - INFO - train loss: 0.0357
+2021-06-09 14:01:28,995 - log/train.log - INFO - train loss: 0.0026
+2021-06-09 14:01:29,037 - log/train.log - INFO - train loss: 0.0311
+2021-06-09 14:01:29,081 - log/train.log - INFO - train loss: 0.0406
+2021-06-09 14:01:29,124 - log/train.log - INFO - train loss: 0.0050
+2021-06-09 14:01:29,170 - log/train.log - INFO - train loss: 0.0041
+2021-06-09 14:01:29,216 - log/train.log - INFO - train loss: 0.0077
+2021-06-09 14:01:29,262 - log/train.log - INFO - train loss: 0.0231
+2021-06-09 14:01:29,306 - log/train.log - INFO - train loss: 0.0251
+2021-06-09 14:01:29,353 - log/train.log - INFO - train loss: 0.0209
+2021-06-09 14:01:29,405 - log/train.log - INFO - train loss: 0.0048
+2021-06-09 14:01:29,454 - log/train.log - INFO - train loss: 0.0159
+2021-06-09 14:01:29,503 - log/train.log - INFO - train loss: 0.0058
+2021-06-09 14:01:29,549 - log/train.log - INFO - train loss: 0.0089
+2021-06-09 14:01:29,591 - log/train.log - INFO - train loss: 0.0172
+2021-06-09 14:01:29,640 - log/train.log - INFO - train loss: 0.0332
+2021-06-09 14:01:29,681 - log/train.log - INFO - train loss: 0.0118
+2021-06-09 14:01:29,722 - log/train.log - INFO - train loss: 0.0076
+2021-06-09 14:01:29,764 - log/train.log - INFO - train loss: 0.0017
+2021-06-09 14:01:29,805 - log/train.log - INFO - train loss: 0.0031
+2021-06-09 14:01:29,856 - log/train.log - INFO - train loss: 0.0168
+2021-06-09 14:01:29,904 - log/train.log - INFO - train loss: 0.0116
+2021-06-09 14:01:29,943 - log/train.log - INFO - train loss: 0.0087
+2021-06-09 14:01:29,987 - log/train.log - INFO - train loss: 0.0129
+2021-06-09 14:01:30,023 - log/train.log - INFO - train loss: 0.0096
+2021-06-09 14:01:30,072 - log/train.log - INFO - train loss: 0.0044
+2021-06-09 14:01:30,118 - log/train.log - INFO - train loss: 0.0233
+2021-06-09 14:01:30,162 - log/train.log - INFO - train loss: 0.0370
+2021-06-09 14:01:30,206 - log/train.log - INFO - train loss: 0.0081
+2021-06-09 14:01:30,248 - log/train.log - INFO - train loss: 0.0262
+2021-06-09 14:01:30,296 - log/train.log - INFO - train loss: 0.0541
+2021-06-09 14:01:30,341 - log/train.log - INFO - train loss: 0.0346
+2021-06-09 14:01:30,389 - log/train.log - INFO - train loss: 0.0136
+2021-06-09 14:01:30,431 - log/train.log - INFO - train loss: 0.0214
+2021-06-09 14:01:30,475 - log/train.log - INFO - train loss: 0.0239
+2021-06-09 14:01:30,522 - log/train.log - INFO - train loss: 0.0071
+2021-06-09 14:01:30,568 - log/train.log - INFO - train loss: 0.0245
+2021-06-09 14:01:30,613 - log/train.log - INFO - train loss: 0.0363
+2021-06-09 14:01:30,652 - log/train.log - INFO - train loss: 0.0035
+2021-06-09 14:01:30,698 - log/train.log - INFO - train loss: 0.0219
+2021-06-09 14:01:30,747 - log/train.log - INFO - train loss: 0.0323
+2021-06-09 14:01:30,798 - log/train.log - INFO - train loss: 0.0090
+2021-06-09 14:01:30,841 - log/train.log - INFO - train loss: 0.0353
+2021-06-09 14:01:30,888 - log/train.log - INFO - train loss: 0.0038
+2021-06-09 14:01:30,934 - log/train.log - INFO - train loss: 0.0255
+2021-06-09 14:01:30,982 - log/train.log - INFO - train loss: 0.0089
+2021-06-09 14:01:31,032 - log/train.log - INFO - train loss: 0.0364
+2021-06-09 14:01:31,077 - log/train.log - INFO - train loss: 0.0385
+2021-06-09 14:01:31,122 - log/train.log - INFO - train loss: 0.0008
+2021-06-09 14:01:31,172 - log/train.log - INFO - train loss: 0.0108
+2021-06-09 14:01:31,216 - log/train.log - INFO - train loss: 0.0280
+2021-06-09 14:01:31,264 - log/train.log - INFO - train loss: 0.0256
+2021-06-09 14:01:31,307 - log/train.log - INFO - train loss: 0.0069
+2021-06-09 14:01:31,349 - log/train.log - INFO - train loss: 0.0026
+2021-06-09 14:01:31,388 - log/train.log - INFO - train loss: 0.0347
+2021-06-09 14:01:31,445 - log/train.log - INFO - train loss: 0.0056
+2021-06-09 14:01:31,490 - log/train.log - INFO - train loss: 0.0069
+2021-06-09 14:01:31,534 - log/train.log - INFO - train loss: 0.0007
+2021-06-09 14:01:31,578 - log/train.log - INFO - train loss: 0.0022
+2021-06-09 14:01:31,624 - log/train.log - INFO - train loss: 0.0253
+2021-06-09 14:01:31,669 - log/train.log - INFO - train loss: 0.0276
+2021-06-09 14:01:31,717 - log/train.log - INFO - train loss: 0.0205
+2021-06-09 14:01:31,760 - log/train.log - INFO - train loss: 0.0271
+2021-06-09 14:01:31,800 - log/train.log - INFO - train loss: 0.0091
+2021-06-09 14:01:31,840 - log/train.log - INFO - train loss: 0.0098
+2021-06-09 14:01:31,895 - log/train.log - INFO - train loss: 0.0127
+2021-06-09 14:01:31,939 - log/train.log - INFO - train loss: 0.0244
+2021-06-09 14:01:31,982 - log/train.log - INFO - train loss: 0.0192
+2021-06-09 14:01:32,025 - log/train.log - INFO - train loss: 0.0037
+2021-06-09 14:01:32,071 - log/train.log - INFO - train loss: 0.0029
+2021-06-09 14:01:32,117 - log/train.log - INFO - train loss: 0.0068
+2021-06-09 14:01:32,168 - log/train.log - INFO - train loss: 0.0077
+2021-06-09 14:01:32,212 - log/train.log - INFO - train loss: 0.0124
+2021-06-09 14:01:32,258 - log/train.log - INFO - train loss: 0.0020
+2021-06-09 14:01:32,300 - log/train.log - INFO - train loss: 0.0005
+2021-06-09 14:01:32,344 - log/train.log - INFO - train loss: 0.0005
+2021-06-09 14:01:32,398 - log/train.log - INFO - train loss: 0.0056
+2021-06-09 14:01:32,442 - log/train.log - INFO - train loss: 0.0297
+2021-06-09 14:01:32,483 - log/train.log - INFO - train loss: 0.0236
+2021-06-09 14:01:32,531 - log/train.log - INFO - train loss: 0.0239
+2021-06-09 14:01:32,583 - log/train.log - INFO - train loss: 0.0375
+2021-06-09 14:01:32,632 - log/train.log - INFO - train loss: 0.0169
+2021-06-09 14:01:32,673 - log/train.log - INFO - train loss: 0.0051
+2021-06-09 14:01:32,715 - log/train.log - INFO - train loss: 0.0051
+2021-06-09 14:01:32,760 - log/train.log - INFO - train loss: 0.0048
+2021-06-09 14:01:32,806 - log/train.log - INFO - train loss: 0.0241
+2021-06-09 14:01:32,853 - log/train.log - INFO - train loss: 0.0364
+2021-06-09 14:01:32,888 - log/train.log - INFO - train loss: 0.0269
+2021-06-09 14:01:32,936 - log/train.log - INFO - train loss: 0.0145
+2021-06-09 14:01:32,977 - log/train.log - INFO - train loss: 0.0211
+2021-06-09 14:01:33,027 - log/train.log - INFO - train loss: 0.0120
+2021-06-09 14:01:33,073 - log/train.log - INFO - train loss: 0.0065
+2021-06-09 14:01:33,118 - log/train.log - INFO - train loss: 0.0117
+2021-06-09 14:01:33,160 - log/train.log - INFO - train loss: 0.0003
+2021-06-09 14:01:33,208 - log/train.log - INFO - train loss: 0.0019
+2021-06-09 14:01:33,250 - log/train.log - INFO - train loss: 0.0294
+2021-06-09 14:01:33,295 - log/train.log - INFO - train loss: 0.0148
+2021-06-09 14:01:33,339 - log/train.log - INFO - train loss: 0.0083
+2021-06-09 14:01:33,383 - log/train.log - INFO - train loss: 0.0055
+2021-06-09 14:01:33,437 - log/train.log - INFO - train loss: 0.0464
+2021-06-09 14:01:33,482 - log/train.log - INFO - train loss: 0.0141
+2021-06-09 14:01:33,530 - log/train.log - INFO - train loss: 0.0070
+2021-06-09 14:01:33,569 - log/train.log - INFO - train loss: 0.0258
+2021-06-09 14:01:33,613 - log/train.log - INFO - train loss: 0.0003
+2021-06-09 14:01:33,655 - log/train.log - INFO - train loss: 0.0101
+2021-06-09 14:01:33,711 - log/train.log - INFO - train loss: 0.0085
+2021-06-09 14:01:33,758 - log/train.log - INFO - train loss: 0.0301
+2021-06-09 14:01:33,797 - log/train.log - INFO - train loss: 0.0072
+2021-06-09 14:01:33,841 - log/train.log - INFO - train loss: 0.0095
+2021-06-09 14:01:33,881 - log/train.log - INFO - train loss: 0.0051
+2021-06-09 14:01:33,928 - log/train.log - INFO - train loss: 0.0041
+2021-06-09 14:01:33,972 - log/train.log - INFO - train loss: 0.0038
+2021-06-09 14:01:34,015 - log/train.log - INFO - train loss: 0.0132
+2021-06-09 14:01:34,062 - log/train.log - INFO - train loss: 0.0159
+2021-06-09 14:01:34,106 - log/train.log - INFO - train loss: 0.0061
+2021-06-09 14:01:34,151 - log/train.log - INFO - train loss: 0.0252
+2021-06-09 14:01:34,199 - log/train.log - INFO - train loss: 0.0173
+2021-06-09 14:01:34,242 - log/train.log - INFO - train loss: 0.0191
+2021-06-09 14:01:34,286 - log/train.log - INFO - train loss: 0.0345
+2021-06-09 14:01:34,332 - log/train.log - INFO - train loss: 0.0075
+2021-06-09 14:01:34,378 - log/train.log - INFO - train loss: 0.0069
+2021-06-09 14:01:34,428 - log/train.log - INFO - train loss: 0.0237
+2021-06-09 14:01:34,472 - log/train.log - INFO - train loss: 0.0073
+2021-06-09 14:01:34,517 - log/train.log - INFO - train loss: 0.0195
+2021-06-09 14:01:34,558 - log/train.log - INFO - train loss: 0.0002
+2021-06-09 14:01:34,608 - log/train.log - INFO - train loss: 0.0046
+2021-06-09 14:01:34,657 - log/train.log - INFO - train loss: 0.0004
+2021-06-09 14:01:34,705 - log/train.log - INFO - train loss: 0.0072
+2021-06-09 14:01:34,749 - log/train.log - INFO - train loss: 0.0002
+2021-06-09 14:01:34,791 - log/train.log - INFO - train loss: 0.0073
+2021-06-09 14:01:34,835 - log/train.log - INFO - train loss: 0.0039
+2021-06-09 14:01:34,883 - log/train.log - INFO - train loss: 0.0075
+2021-06-09 14:01:34,931 - log/train.log - INFO - train loss: 0.0106
+2021-06-09 14:01:34,977 - log/train.log - INFO - train loss: 0.0196
+2021-06-09 14:01:35,022 - log/train.log - INFO - train loss: 0.0051
+2021-06-09 14:01:35,067 - log/train.log - INFO - train loss: 0.0250
+2021-06-09 14:01:35,117 - log/train.log - INFO - train loss: 0.0231
+2021-06-09 14:01:35,156 - log/train.log - INFO - train loss: 0.0294
+2021-06-09 14:01:35,198 - log/train.log - INFO - train loss: 0.0054
+2021-06-09 14:01:35,242 - log/train.log - INFO - train loss: 0.0075
+2021-06-09 14:01:35,293 - log/train.log - INFO - train loss: 0.0315
+2021-06-09 14:01:35,342 - log/train.log - INFO - train loss: 0.0057
+2021-06-09 14:01:35,380 - log/train.log - INFO - train loss: 0.0344
+2021-06-09 14:01:35,429 - log/train.log - INFO - train loss: 0.0076
+2021-06-09 14:01:35,481 - log/train.log - INFO - train loss: 0.0281
+2021-06-09 14:01:35,531 - log/train.log - INFO - train loss: 0.0278
+2021-06-09 14:01:35,578 - log/train.log - INFO - train loss: 0.0092
+2021-06-09 14:01:35,620 - log/train.log - INFO - train loss: 0.0071
+2021-06-09 14:01:35,663 - log/train.log - INFO - train loss: 0.0040
+2021-06-09 14:01:35,707 - log/train.log - INFO - train loss: 0.0088
+2021-06-09 14:01:35,758 - log/train.log - INFO - train loss: 0.0032
+2021-06-09 14:01:35,803 - log/train.log - INFO - train loss: 0.0341
+2021-06-09 14:01:35,841 - log/train.log - INFO - train loss: 0.0049
+2021-06-09 14:01:35,879 - log/train.log - INFO - train loss: 0.0036
+2021-06-09 14:01:35,915 - log/train.log - INFO - train loss: 0.0254
+2021-06-09 14:01:35,965 - log/train.log - INFO - train loss: 0.0143
+2021-06-09 14:01:36,014 - log/train.log - INFO - train loss: 0.0069
+2021-06-09 14:01:36,055 - log/train.log - INFO - train loss: 0.0156
+2021-06-09 14:01:36,101 - log/train.log - INFO - train loss: 0.0016
+2021-06-09 14:01:36,144 - log/train.log - INFO - train loss: 0.0092
+2021-06-09 14:01:36,193 - log/train.log - INFO - train loss: 0.0328
+2021-06-09 14:01:36,239 - log/train.log - INFO - train loss: 0.0002
+2021-06-09 14:01:36,277 - log/train.log - INFO - train loss: 0.0241
+2021-06-09 14:01:36,322 - log/train.log - INFO - train loss: 0.0041
+2021-06-09 14:01:36,364 - log/train.log - INFO - train loss: 0.0050
+2021-06-09 14:01:36,418 - log/train.log - INFO - train loss: 0.0002
+2021-06-09 14:01:36,463 - log/train.log - INFO - train loss: 0.0268
+2021-06-09 14:01:36,505 - log/train.log - INFO - train loss: 0.0221
+2021-06-09 14:01:36,547 - log/train.log - INFO - train loss: 0.0126
+2021-06-09 14:01:36,596 - log/train.log - INFO - train loss: 0.0116
+2021-06-09 14:01:36,642 - log/train.log - INFO - train loss: 0.0172
+2021-06-09 14:01:36,688 - log/train.log - INFO - train loss: 0.0001
+2021-06-09 14:01:36,732 - log/train.log - INFO - train loss: 0.0173
+2021-06-09 14:01:36,778 - log/train.log - INFO - train loss: 0.0080
+2021-06-09 14:01:36,823 - log/train.log - INFO - train loss: 0.0039
+2021-06-09 14:01:36,868 - log/train.log - INFO - train loss: 0.0080
+2021-06-09 14:01:36,918 - log/train.log - INFO - train loss: 0.0210
+2021-06-09 14:01:36,960 - log/train.log - INFO - train loss: 0.0205
+2021-06-09 14:01:37,001 - log/train.log - INFO - train loss: 0.0113
+2021-06-09 14:01:37,048 - log/train.log - INFO - train loss: 0.0005
+2021-06-09 14:01:37,095 - log/train.log - INFO - train loss: 0.0012
+2021-06-09 14:01:37,139 - log/train.log - INFO - train loss: 0.0057
+2021-06-09 14:01:37,181 - log/train.log - INFO - train loss: 0.0119
+2021-06-09 14:01:37,226 - log/train.log - INFO - train loss: 0.0113
+2021-06-09 14:01:37,271 - log/train.log - INFO - train loss: 0.0008
+2021-06-09 14:01:37,322 - log/train.log - INFO - train loss: 0.0083
+2021-06-09 14:01:37,366 - log/train.log - INFO - train loss: 0.0001
+2021-06-09 14:01:37,409 - log/train.log - INFO - train loss: 0.0038
+2021-06-09 14:01:37,456 - log/train.log - INFO - train loss: 0.0043
+2021-06-09 14:01:37,498 - log/train.log - INFO - train loss: 0.0105
+2021-06-09 14:01:37,544 - log/train.log - INFO - train loss: 0.0001
+2021-06-09 14:01:37,594 - log/train.log - INFO - train loss: 0.0001
+2021-06-09 14:01:37,638 - log/train.log - INFO - train loss: 0.0010
+2021-06-09 14:01:37,681 - log/train.log - INFO - train loss: 0.0102
+2021-06-09 14:01:37,727 - log/train.log - INFO - train loss: 0.0280
+2021-06-09 14:01:37,774 - log/train.log - INFO - train loss: 0.0042
+2021-06-09 14:01:37,822 - log/train.log - INFO - train loss: 0.0040
+2021-06-09 14:01:37,864 - log/train.log - INFO - train loss: 0.0434
+2021-06-09 14:01:37,911 - log/train.log - INFO - train loss: 0.0216
+2021-06-09 14:01:37,957 - log/train.log - INFO - train loss: 0.0138
+2021-06-09 14:01:38,005 - log/train.log - INFO - train loss: 0.0238
+2021-06-09 14:01:38,051 - log/train.log - INFO - train loss: 0.0231
+2021-06-09 14:01:38,092 - log/train.log - INFO - train loss: 0.0201
+2021-06-09 14:01:38,135 - log/train.log - INFO - train loss: 0.0106
+2021-06-09 14:01:38,179 - log/train.log - INFO - train loss: 0.0374
+2021-06-09 14:01:38,226 - log/train.log - INFO - train loss: 0.0086
+2021-06-09 14:01:38,270 - log/train.log - INFO - train loss: 0.0163
+2021-06-09 14:01:38,308 - log/train.log - INFO - train loss: 0.0269
+2021-06-09 14:01:38,352 - log/train.log - INFO - train loss: 0.0203
+2021-06-09 14:01:38,394 - log/train.log - INFO - train loss: 0.0042
+2021-06-09 14:01:38,451 - log/train.log - INFO - train loss: 0.0007
+2021-06-09 14:01:38,497 - log/train.log - INFO - train loss: 0.0010
+2021-06-09 14:01:38,542 - log/train.log - INFO - train loss: 0.0113
+2021-06-09 14:01:38,598 - log/train.log - INFO - train loss: 0.0118
+2021-06-09 14:01:38,677 - log/train.log - INFO - train loss: 0.0002
+2021-06-09 14:01:38,728 - log/train.log - INFO - train loss: 0.0255
+2021-06-09 14:01:38,781 - log/train.log - INFO - train loss: 0.0001
+2021-06-09 14:01:38,845 - log/train.log - INFO - train loss: 0.0093
+2021-06-09 14:01:38,929 - log/train.log - INFO - train loss: 0.0104
+2021-06-09 14:01:38,977 - log/train.log - INFO - train loss: 0.0105
+2021-06-09 14:01:39,027 - log/train.log - INFO - train loss: 0.0040
+2021-06-09 14:01:39,079 - log/train.log - INFO - train loss: 0.0135
+2021-06-09 14:01:39,141 - log/train.log - INFO - train loss: 0.0086
+2021-06-09 14:01:39,194 - log/train.log - INFO - train loss: 0.0091
+2021-06-09 14:01:39,263 - log/train.log - INFO - train loss: 0.0200
+2021-06-09 14:01:39,326 - log/train.log - INFO - train loss: 0.0038
+2021-06-09 14:01:39,375 - log/train.log - INFO - train loss: 0.0073
+2021-06-09 14:01:39,426 - log/train.log - INFO - train loss: 0.0108
+2021-06-09 14:01:39,469 - log/train.log - INFO - train loss: 0.0094
+2021-06-09 14:01:39,523 - log/train.log - INFO - train loss: 0.0015
+2021-06-09 14:01:39,588 - log/train.log - INFO - train loss: 0.0309
+2021-06-09 14:01:39,637 - log/train.log - INFO - train loss: 0.0250
+2021-06-09 14:01:39,685 - log/train.log - INFO - train loss: 0.0002
+2021-06-09 14:01:39,734 - log/train.log - INFO - train loss: 0.0438
+2021-06-09 14:01:39,784 - log/train.log - INFO - train loss: 0.0078
+2021-06-09 14:01:39,828 - log/train.log - INFO - train loss: 0.0072
+2021-06-09 14:01:39,872 - log/train.log - INFO - train loss: 0.0065
+2021-06-09 14:01:39,944 - log/train.log - INFO - train loss: 0.0134
+2021-06-09 14:01:39,989 - log/train.log - INFO - train loss: 0.0124
+2021-06-09 14:01:40,064 - log/train.log - INFO - train loss: 0.0088
+2021-06-09 14:01:40,111 - log/train.log - INFO - train loss: 0.0288
+2021-06-09 14:01:40,167 - log/train.log - INFO - train loss: 0.0034
+2021-06-09 14:01:40,212 - log/train.log - INFO - train loss: 0.0230
+2021-06-09 14:01:40,249 - log/train.log - INFO - train loss: 0.0232
+2021-06-09 14:02:20,117 - log/train.log - INFO - Epoch: [1/1]
+2021-06-09 14:02:25,712 - log/train.log - INFO - train loss: 1.0898
+2021-06-09 14:02:31,346 - log/train.log - INFO - train loss: 0.4102
+2021-06-09 14:02:36,954 - log/train.log - INFO - train loss: 0.3758
+2021-06-09 14:02:42,661 - log/train.log - INFO - train loss: 0.3653
+2021-06-09 14:02:48,354 - log/train.log - INFO - train loss: 0.3449
+2021-06-09 14:02:54,059 - log/train.log - INFO - train loss: 0.2957
+2021-06-09 14:02:59,705 - log/train.log - INFO - train loss: 0.3189
+2021-06-09 14:03:05,397 - log/train.log - INFO - train loss: 0.3176
+2021-06-09 14:03:11,066 - log/train.log - INFO - train loss: 0.3443
+2021-06-09 14:03:16,771 - log/train.log - INFO - train loss: 0.3539
+2021-06-09 14:03:22,446 - log/train.log - INFO - train loss: 0.3030
+2021-06-09 14:03:28,211 - log/train.log - INFO - train loss: 0.3216
+2021-06-09 14:03:34,022 - log/train.log - INFO - train loss: 0.2859
+2021-06-09 14:03:39,808 - log/train.log - INFO - train loss: 0.2449
+2021-06-09 14:03:45,589 - log/train.log - INFO - train loss: 0.2945
+2021-06-09 14:09:02,977 - log/train.log - INFO - Epoch: [1/1]
+2021-06-09 14:09:08,502 - log/train.log - INFO - train loss: 0.9964
+2021-06-09 14:09:13,798 - log/train.log - INFO - train loss: 0.6909
+2021-06-09 14:09:19,598 - log/train.log - INFO - train loss: 0.6293
+2021-06-09 14:09:25,367 - log/train.log - INFO - train loss: 0.5346
+2021-06-09 14:09:32,934 - log/train.log - INFO - train loss: 0.5616
+2021-06-09 14:09:38,957 - log/train.log - INFO - train loss: 0.5963
+2021-06-09 14:09:44,577 - log/train.log - INFO - train loss: 0.5451
+2021-06-09 14:09:50,188 - log/train.log - INFO - train loss: 0.5969
+2021-06-09 14:09:55,973 - log/train.log - INFO - train loss: 0.5782
+2021-06-09 14:10:01,714 - log/train.log - INFO - train loss: 0.6072
+2021-06-09 14:10:07,504 - log/train.log - INFO - train loss: 0.5944
+2021-06-09 14:10:13,256 - log/train.log - INFO - train loss: 0.5395
+2021-06-09 14:10:19,064 - log/train.log - INFO - train loss: 0.5255
+2021-06-09 14:10:24,850 - log/train.log - INFO - train loss: 0.5551
+2021-06-09 14:13:14,584 - log/train.log - INFO - Epoch: [1/1]
+2021-06-09 14:13:20,644 - log/train.log - INFO - train loss: 2.1513
+2021-06-09 14:13:26,941 - log/train.log - INFO - train loss: 1.9677
+2021-06-09 14:13:32,914 - log/train.log - INFO - train loss: 1.7444
+2021-06-09 14:13:39,008 - log/train.log - INFO - train loss: 1.4670
+2021-06-09 14:13:45,216 - log/train.log - INFO - train loss: 1.0773
+2021-06-09 14:13:51,449 - log/train.log - INFO - train loss: 0.8979
+2021-06-09 14:13:59,507 - log/train.log - INFO - train loss: 0.6954
+2021-06-09 14:14:06,388 - log/train.log - INFO - train loss: 0.6373
+2021-06-09 14:14:11,990 - log/train.log - INFO - train loss: 0.5448
+2021-06-09 14:14:17,609 - log/train.log - INFO - train loss: 0.5199
+2021-06-09 14:14:23,343 - log/train.log - INFO - train loss: 0.4988
+2021-06-09 14:14:29,430 - log/train.log - INFO - train loss: 0.5495
+2021-06-09 14:14:36,540 - log/train.log - INFO - train loss: 0.4818
+2021-06-11 16:54:32,833 - log/train.log - INFO - Epoch: [1/1]
+2021-06-11 16:57:42,033 - log/train.log - INFO - Epoch: [1/1]
+2021-06-11 16:58:30,603 - log/train.log - INFO - Epoch: [1/1]
+2021-06-11 16:59:28,582 - log/train.log - INFO - Epoch: [1/1]
+2021-06-11 17:00:08,216 - log/train.log - INFO - Epoch: [1/1]
+2021-06-11 17:00:55,022 - log/train.log - INFO - Epoch: [1/1]
+2021-06-11 17:02:40,426 - log/train.log - INFO - Epoch: [1/1]
+2021-06-11 17:04:15,003 - log/train.log - INFO - Epoch: [1/1]
+2021-06-11 17:04:43,260 - log/train.log - INFO - Epoch: [1/1]
+2021-06-11 17:07:44,943 - log/train.log - INFO - Epoch: [1/1]
+2021-06-11 17:09:50,204 - log/train.log - INFO - Epoch: [1/1]
+2021-06-11 17:12:22,618 - log/train.log - INFO - Epoch: [1/1]
+2021-06-11 17:16:08,376 - log/train.log - INFO - Epoch: [1/1]
+2021-06-11 17:16:09,342 - log/train.log - INFO - train loss: 41.1448
+2021-06-11 17:16:10,391 - log/train.log - INFO - train loss: 41.7824
+2021-06-11 17:16:11,407 - log/train.log - INFO - train loss: 26.6503
+2021-06-11 17:16:12,341 - log/train.log - INFO - train loss: 28.9570
+2021-06-11 17:16:12,973 - log/train.log - INFO - train loss: 14.5885
+2021-06-11 17:16:13,677 - log/train.log - INFO - train loss: 11.5954
+2021-06-11 17:16:14,094 - log/train.log - INFO - train loss: 12.8257
+2021-06-11 17:16:14,471 - log/train.log - INFO - train loss: 5.4711
+2021-06-11 17:16:14,890 - log/train.log - INFO - train loss: 7.7027
+2021-06-11 17:16:15,389 - log/train.log - INFO - train loss: 7.0811
+2021-06-11 17:16:15,941 - log/train.log - INFO - train loss: 13.1183
+2021-06-11 17:16:16,823 - log/train.log - INFO - train loss: 19.6228
+2021-06-11 17:16:17,389 - log/train.log - INFO - train loss: 8.2820
+2021-06-11 17:16:18,121 - log/train.log - INFO - train loss: 14.3393
+2021-06-11 17:16:19,028 - log/train.log - INFO - train loss: 29.2605
+2021-06-11 17:16:19,813 - log/train.log - INFO - train loss: 11.7714
+2021-06-11 17:16:20,361 - log/train.log - INFO - train loss: 12.4064
+2021-06-11 17:16:21,286 - log/train.log - INFO - train loss: 29.5482
+2021-06-11 17:16:21,922 - log/train.log - INFO - train loss: 11.8016
+2021-06-11 17:16:22,775 - log/train.log - INFO - train loss: 16.7061
+2021-06-11 17:16:23,762 - log/train.log - INFO - train loss: 21.3071
+2021-06-11 17:16:24,341 - log/train.log - INFO - train loss: 10.4128
+2021-06-11 17:16:24,759 - log/train.log - INFO - train loss: 6.3510
+2021-06-11 17:16:25,140 - log/train.log - INFO - train loss: 7.5433
+2021-06-11 17:16:25,662 - log/train.log - INFO - train loss: 4.7684
+2021-06-11 17:16:26,233 - log/train.log - INFO - train loss: 6.5019
+2021-06-11 17:16:26,763 - log/train.log - INFO - train loss: 11.6515
+2021-06-11 17:16:27,257 - log/train.log - INFO - train loss: 1.2827
+2021-06-11 17:16:27,643 - log/train.log - INFO - train loss: 4.9827
+2021-06-11 17:16:28,190 - log/train.log - INFO - train loss: 11.2445
+2021-06-11 17:16:28,925 - log/train.log - INFO - train loss: 11.9058
+2021-06-11 17:16:29,371 - log/train.log - INFO - train loss: 5.2074
+2021-06-11 17:16:30,009 - log/train.log - INFO - train loss: 8.7144
+2021-06-11 17:16:30,896 - log/train.log - INFO - train loss: 10.3389
+2021-06-11 17:16:31,953 - log/train.log - INFO - train loss: 11.1981
+2021-06-11 17:16:32,280 - log/train.log - INFO - train loss: 18.5317
+2021-06-11 17:16:32,779 - log/train.log - INFO - train loss: 37.3390
+2021-06-11 17:16:33,141 - log/train.log - INFO - train loss: 14.3026
+2021-06-11 17:16:33,618 - log/train.log - INFO - train loss: 19.1073
+2021-06-11 17:16:34,560 - log/train.log - INFO - train loss: 17.5647
+2021-06-11 17:16:35,112 - log/train.log - INFO - train loss: 12.5753
+2021-06-11 17:16:35,497 - log/train.log - INFO - train loss: 10.2039
+2021-06-11 17:16:35,809 - log/train.log - INFO - train loss: 10.3217
+2021-06-11 17:16:36,158 - log/train.log - INFO - train loss: 14.6397
+2021-06-11 17:16:36,965 - log/train.log - INFO - train loss: 8.2802
+2021-06-11 17:16:37,257 - log/train.log - INFO - train loss: 12.0666
+2021-06-11 17:16:37,670 - log/train.log - INFO - train loss: 17.6694
+2021-06-11 17:16:38,032 - log/train.log - INFO - train loss: 11.0236
+2021-06-11 17:16:38,311 - log/train.log - INFO - train loss: 18.1236
+2021-06-11 17:16:38,741 - log/train.log - INFO - train loss: 21.5803
+2021-06-11 17:16:39,946 - log/train.log - INFO - train loss: 17.0259
+2021-06-11 17:16:59,199 - log/train.log - INFO - Epoch: [1/1]
+2021-06-11 17:17:05,882 - log/train.log - INFO - train loss: 197.7990
+2021-06-11 17:17:13,203 - log/train.log - INFO - train loss: 166.8566
+2021-06-11 17:17:18,107 - log/train.log - INFO - train loss: 86.0459
+2021-06-11 17:17:24,424 - log/train.log - INFO - train loss: 154.2100
+2021-06-11 17:17:28,409 - log/train.log - INFO - train loss: 136.4843
+2021-06-11 17:17:32,530 - log/train.log - INFO - train loss: 138.3816
+2021-06-11 17:17:36,464 - log/train.log - INFO - train loss: 117.3609
+2021-06-11 17:17:40,587 - log/train.log - INFO - train loss: 190.8342
+2021-06-11 17:17:44,271 - log/train.log - INFO - train loss: 99.9944
+2021-06-11 17:17:50,246 - log/train.log - INFO - train loss: 172.8582
+2021-06-11 17:17:54,727 - log/train.log - INFO - train loss: 76.2778
+2021-06-11 17:18:02,136 - log/train.log - INFO - train loss: 119.0399
+2021-06-11 17:18:09,356 - log/train.log - INFO - train loss: 102.7251
+2021-06-11 17:18:16,371 - log/train.log - INFO - train loss: 99.6622
+2021-06-11 17:18:23,872 - log/train.log - INFO - train loss: 103.3684
+2021-06-11 17:18:31,574 - log/train.log - INFO - train loss: 123.2989
+2021-06-11 17:18:37,874 - log/train.log - INFO - train loss: 108.9546
+2021-06-11 17:18:45,988 - log/train.log - INFO - train loss: 108.9244
+2021-06-11 17:18:51,744 - log/train.log - INFO - train loss: 70.0879
+2021-06-11 17:18:59,172 - log/train.log - INFO - train loss: 105.9543
+2021-06-11 17:19:02,580 - log/train.log - INFO - train loss: 111.1011
+2021-06-11 17:19:08,270 - log/train.log - INFO - train loss: 111.7345
+2021-06-11 17:19:11,662 - log/train.log - INFO - train loss: 89.0086
+2021-06-11 17:19:18,414 - log/train.log - INFO - train loss: 115.3963
+2021-06-11 17:19:24,185 - log/train.log - INFO - train loss: 119.6135
+2021-06-11 17:19:48,442 - log/train.log - INFO - Epoch: [1/1]
+2021-06-11 17:19:55,682 - log/train.log - INFO - train loss: 19.7799
+2021-06-11 17:20:03,178 - log/train.log - INFO - train loss: 16.6857
+2021-06-11 17:20:08,446 - log/train.log - INFO - train loss: 8.6046
+2021-06-11 17:20:14,847 - log/train.log - INFO - train loss: 15.4210
+2021-06-11 17:20:19,018 - log/train.log - INFO - train loss: 13.6484
+2021-06-11 17:20:23,708 - log/train.log - INFO - train loss: 13.8382
+2021-06-11 17:20:27,769 - log/train.log - INFO - train loss: 11.7361
+2021-06-11 17:20:32,024 - log/train.log - INFO - train loss: 19.0834
+2021-06-11 17:20:35,895 - log/train.log - INFO - train loss: 9.9994
+2021-06-11 17:20:42,085 - log/train.log - INFO - train loss: 17.2858
+2021-06-11 17:20:46,645 - log/train.log - INFO - train loss: 7.6278
+2021-06-11 17:20:54,430 - log/train.log - INFO - train loss: 11.9040
+2021-06-11 17:21:12,308 - log/train.log - INFO - Epoch: [1/1]
+2021-06-11 17:22:04,252 - log/train.log - INFO - train loss: 14.6083
+2021-06-11 17:23:13,395 - log/train.log - INFO - train loss: 10.1829
+2021-06-11 17:24:04,447 - log/train.log - INFO - train loss: 10.7722
+2021-06-11 17:40:12,434 - log/train.log - INFO - Epoch: [1/1]
+2021-06-11 17:40:18,857 - log/train.log - INFO - train loss: 19.7799
+2021-06-11 17:40:25,920 - log/train.log - INFO - train loss: 16.6857
+2021-06-11 18:18:52,584 - log/train.log - INFO - Epoch: [1/1]
+2021-06-11 18:18:59,038 - log/train.log - INFO - train loss: 19.7799
+2021-06-11 18:20:40,435 - log/train.log - INFO - Epoch: [1/1]
+2021-06-11 18:20:46,946 - log/train.log - INFO - train loss: 19.7799
+2021-06-11 18:21:26,792 - log/train.log - INFO - processed 51578 tokens with 5942 phrases; found: 230 phrases; correct: 0.
+2021-06-11 18:21:26,793 - log/train.log - INFO - accuracy:  82.88%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2021-06-11 18:21:26,793 - log/train.log - INFO - LOC: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2021-06-11 18:21:26,793 - log/train.log - INFO - MISC: precision:   0.00%; recall:   0.00%; FB1:   0.00  230
+2021-06-11 18:21:26,793 - log/train.log - INFO - ORG: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2021-06-11 18:21:26,794 - log/train.log - INFO - PER: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2021-06-11 18:21:34,210 - log/train.log - INFO - train loss: 16.6715
+2021-06-11 18:22:16,185 - log/train.log - INFO - processed 51578 tokens with 5942 phrases; found: 226 phrases; correct: 0.
+2021-06-11 18:22:16,186 - log/train.log - INFO - accuracy:  82.89%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2021-06-11 18:22:16,186 - log/train.log - INFO - LOC: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2021-06-11 18:22:16,186 - log/train.log - INFO - MISC: precision:   0.00%; recall:   0.00%; FB1:   0.00  226
+2021-06-11 18:22:16,187 - log/train.log - INFO - ORG: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2021-06-11 18:22:16,187 - log/train.log - INFO - PER: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2021-06-11 18:22:20,996 - log/train.log - INFO - train loss: 8.5927
+2021-06-11 18:23:00,094 - log/train.log - INFO - processed 51578 tokens with 5942 phrases; found: 204 phrases; correct: 0.
+2021-06-11 18:23:00,094 - log/train.log - INFO - accuracy:  82.93%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2021-06-11 18:23:00,094 - log/train.log - INFO - LOC: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2021-06-11 18:23:00,094 - log/train.log - INFO - MISC: precision:   0.00%; recall:   0.00%; FB1:   0.00  204
+2021-06-11 18:23:00,095 - log/train.log - INFO - ORG: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2021-06-11 18:23:00,095 - log/train.log - INFO - PER: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2021-06-11 18:23:06,220 - log/train.log - INFO - train loss: 15.3715
+2021-06-11 18:25:48,790 - log/train.log - INFO - Epoch: [1/1]
+2021-06-11 18:26:04,091 - log/train.log - INFO - train loss: 23.9715
+2021-06-11 18:30:27,637 - log/train.log - INFO - Epoch: [1/1]
+2021-06-11 18:33:01,376 - log/train.log - INFO - Epoch: [1/1]
+2021-06-11 18:33:01,658 - log/train.log - INFO - train loss: 29.1983
+2021-06-11 18:34:11,542 - log/train.log - INFO - processed 109870 tokens with 3819 phrases; found: 109800 phrases; correct: 101.
+2021-06-11 18:34:11,542 - log/train.log - INFO - accuracy:   1.46%; precision:   0.09%; recall:   2.64%; FB1:   0.18
+2021-06-11 18:34:11,542 - log/train.log - INFO - LOC: precision:   0.22%; recall:   4.36%; FB1:   0.41  39030
+2021-06-11 18:34:11,543 - log/train.log - INFO - ORG: precision:   0.00%; recall:   0.10%; FB1:   0.01  36409
+2021-06-11 18:34:11,543 - log/train.log - INFO - PER: precision:   0.04%; recall:   1.70%; FB1:   0.09  34361
+2021-06-11 18:34:11,656 - log/train.log - INFO - train loss: 40.2774
+2021-06-11 18:35:28,851 - log/train.log - INFO - processed 109870 tokens with 3819 phrases; found: 109637 phrases; correct: 106.
+2021-06-11 18:35:28,854 - log/train.log - INFO - accuracy:   1.57%; precision:   0.10%; recall:   2.78%; FB1:   0.19
+2021-06-11 18:35:28,854 - log/train.log - INFO - LOC: precision:   0.23%; recall:   4.56%; FB1:   0.43  38998
+2021-06-11 18:35:28,854 - log/train.log - INFO - ORG: precision:   0.00%; recall:   0.10%; FB1:   0.01  36315
+2021-06-11 18:35:28,854 - log/train.log - INFO - PER: precision:   0.05%; recall:   1.81%; FB1:   0.09  34324
+2021-06-11 18:35:29,166 - log/train.log - INFO - train loss: 94.0394
+2021-06-11 18:41:59,128 - log/train.log - INFO - Epoch: [1/1]
+2021-06-11 18:42:03,139 - log/train.log - INFO - train loss: 32.7315
+2021-06-11 18:43:12,497 - log/train.log - INFO - processed 109870 tokens with 3819 phrases; found: 35 phrases; correct: 0.
+2021-06-11 18:43:12,497 - log/train.log - INFO - accuracy:  88.99%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2021-06-11 18:43:12,498 - log/train.log - INFO - LOC: precision:   0.00%; recall:   0.00%; FB1:   0.00  35
+2021-06-11 18:43:12,498 - log/train.log - INFO - ORG: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2021-06-11 18:43:12,498 - log/train.log - INFO - PER: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2021-06-11 18:43:15,395 - log/train.log - INFO - train loss: 20.3273
+2021-06-11 18:44:26,528 - log/train.log - INFO - processed 109870 tokens with 3819 phrases; found: 5 phrases; correct: 0.
+2021-06-11 18:44:26,530 - log/train.log - INFO - accuracy:  89.02%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2021-06-11 18:44:26,530 - log/train.log - INFO - LOC: precision:   0.00%; recall:   0.00%; FB1:   0.00  5
+2021-06-11 18:44:26,530 - log/train.log - INFO - ORG: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2021-06-11 18:44:26,530 - log/train.log - INFO - PER: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2021-06-11 18:44:29,610 - log/train.log - INFO - train loss: 17.2189
+2021-06-11 18:47:10,040 - log/train.log - INFO - Epoch: [1/1]
+2021-06-11 18:47:12,990 - log/train.log - INFO - train loss: 27.2401
+2021-06-11 18:48:25,389 - log/train.log - INFO - processed 109870 tokens with 3819 phrases; found: 1578 phrases; correct: 0.
+2021-06-11 18:48:25,389 - log/train.log - INFO - accuracy:  87.91%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2021-06-11 18:48:25,389 - log/train.log - INFO - LOC: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2021-06-11 18:48:25,390 - log/train.log - INFO - ORG: precision:   0.00%; recall:   0.00%; FB1:   0.00  1578
+2021-06-11 18:48:25,390 - log/train.log - INFO - PER: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2021-06-11 18:48:27,900 - log/train.log - INFO - train loss: 13.3464
+2021-06-11 18:49:40,032 - log/train.log - INFO - processed 109870 tokens with 3819 phrases; found: 186 phrases; correct: 0.
+2021-06-11 18:49:40,034 - log/train.log - INFO - accuracy:  88.90%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2021-06-11 18:49:40,034 - log/train.log - INFO - LOC: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2021-06-11 18:49:40,035 - log/train.log - INFO - ORG: precision:   0.00%; recall:   0.00%; FB1:   0.00  186
+2021-06-11 18:49:40,035 - log/train.log - INFO - PER: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2021-06-11 18:49:43,526 - log/train.log - INFO - train loss: 36.0458
+2021-06-11 18:56:09,598 - log/train.log - INFO - Epoch: [1/1]
+2021-06-11 19:01:13,817 - log/train.log - INFO - train loss: 9.4849
+2021-06-11 19:02:24,592 - log/train.log - INFO - processed 109870 tokens with 3819 phrases; found: 2616 phrases; correct: 1137.
+2021-06-11 19:02:24,593 - log/train.log - INFO - accuracy:  91.40%; precision:  43.46%; recall:  29.77%; FB1:  35.34
+2021-06-11 19:02:24,593 - log/train.log - INFO - LOC: precision:  50.48%; recall:  43.00%; FB1:  46.44  1662
+2021-06-11 19:02:24,593 - log/train.log - INFO - ORG: precision:  28.64%; recall:  24.19%; FB1:  26.23  831
+2021-06-11 19:02:24,593 - log/train.log - INFO - PER: precision:  48.78%; recall:   6.79%; FB1:  11.92  123
+2021-06-11 19:21:31,296 - log/train.log - INFO - Epoch: [1/1]
